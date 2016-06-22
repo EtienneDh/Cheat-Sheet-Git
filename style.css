@@ -1,0 +1,35 @@
+
+/*General Settings */
+
+* {
+  font-family: Verdana, sans-serif;
+  font-weight: 1em;
+}
+
+/*Header settings */
+
+#title {
+  width: 70%;
+  margin-left: 70px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 4%;
+  border: 1px solid black;
+
+}
+
+#title h1 {
+  font-size: 200%;
+}
+
+#logobox {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black
+
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
