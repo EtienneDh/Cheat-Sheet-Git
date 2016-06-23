@@ -45,6 +45,7 @@ em {
 
 /*Table Settings */
 
-#table_1 {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+.color {
+  font-weight: bold;
+  background-color:#a5e8bb;
 }
