@@ -29,7 +29,7 @@ a:hover {
   display: inline-block;
   vertical-align: top;
   margin-top: 3%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 
 }
 
@@ -47,7 +47,7 @@ a:hover {
 #logobox {                  /* Right Box */
   display: inline-block;
   vertical-align: top;
-  border: 1px solid black
+  /*border: 1px solid black*/
 
 }
 
@@ -71,16 +71,33 @@ a:hover {
 
 /*Table Settings */
 
-#section_1 {
-  padding-top: 20px;
-}
-
-
 section {
   display: inline-block;
   padding-right: 90px;
   padding-bottom: 40px;
 
+}
+
+#section_1 {
+  padding-top: 20px;
+}
+
+#section_2 {
+  padding-left: 60px;
+}
+
+#section_3 {
+  /*padding-left: 25%;*/
+
+}
+
+
+#section_5 {
+  padding-left: 17px;
+}
+
+#section_7 {
+  padding-left: 82px;
 }
 
 section p {
@@ -90,4 +107,18 @@ section p {
 .color {
   font-weight: bold;
   background-color:#a5e8bb;
+}
+
+
+/*Up Button*/
+
+#up {
+  right: 5px;
+  bottom: 0px;
+  position:fixed;
+}
+
+#button {
+  width: 50px;
+  height: 50px;
 }
