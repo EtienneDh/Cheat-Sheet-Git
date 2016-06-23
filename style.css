@@ -10,9 +10,20 @@ em {
   font-style:normal;
 }
 
+a {
+  text-decoration: none;
+  color: #a5e8bb;
+  font-weight: bold;
+}
+
+a:hover {
+  font-weight: bolder;
+  font-size: 120%;
+}
+
 /*Header settings */
 
-#title {
+#title {                      /* Left Box */
   width: 70%;
   margin-left: 70px;
   display: inline-block;
@@ -25,13 +36,15 @@ em {
 #title h1 {
   font-size: 48px;
   padding-left: 10px;
+  color:#6ada8e;
 }
 
 #title p {
   padding-left :10px;
+  color:#a5e8bb;
 }
 
-#logobox {
+#logobox {                  /* Right Box */
   display: inline-block;
   vertical-align: top;
   border: 1px solid black
@@ -43,7 +56,36 @@ em {
   height: 200px;
 }
 
+
+/*Border*/
+
+#border {
+  display: block;
+  border: 2px solid #a5e8bb;
+  width:auto;
+  margin-top: 6px;
+
+}
+
+
+
 /*Table Settings */
+
+#section_1 {
+  padding-top: 20px;
+}
+
+
+section {
+  display: inline-block;
+  padding-right: 90px;
+  padding-bottom: 40px;
+
+}
+
+section p {
+  font-style: italic;
+}
 
 .color {
   font-weight: bold;
