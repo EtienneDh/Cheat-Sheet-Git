@@ -124,3 +124,48 @@ section p {
   width: 50px;
   height: 50px;
 }
+
+
+/*Responsive design*/
+
+@media handheld,screen and (max-width: 1280px) {
+
+  section {
+    display: block;
+  }
+
+
+  #logo {
+    display:none;
+  }
+
+  #section_2 {
+    padding-left: 0px;
+  }
+
+  #section_5 {
+    padding-left: 0px;
+  }
+
+  #section_7 {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  #section_2 {
+    padding-left: 100px;
+
+  }
+
+
+  #section_6 {
+    padding-left: 180px;
+
+  }
+
+  #section_7 {
+    padding-left: 0px;
+  }
+}
