@@ -6,6 +6,10 @@
   font-weight: 1em;
 }
 
+em {
+  font-style:normal;
+}
+
 /*Header settings */
 
 #title {
@@ -13,13 +17,18 @@
   margin-left: 70px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 4%;
+  margin-top: 3%;
   border: 1px solid black;
 
 }
 
 #title h1 {
-  font-size: 200%;
+  font-size: 48px;
+  padding-left: 10px;
+}
+
+#title p {
+  padding-left :10px;
 }
 
 #logobox {
@@ -32,4 +41,10 @@
 #logo {
   width: 200px;
   height: 200px;
+}
+
+/*Table Settings */
+
+#table_1 {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 }
