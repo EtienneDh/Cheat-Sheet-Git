@@ -31,6 +31,7 @@
         <table>
 
             <h4> Configurer Git</h4>
+            <p>Configurer les informations de l'utilisateur</p>
 
             <tr>
                 <td class="color">$ git config --global user.name "[nom]"</td>
@@ -60,6 +61,7 @@
         <table>
 
             <h4>Créer un dépot</h4>
+            <p>Démarrer un nouveau dépot</p>
 
             <tr>
                 <td class="color">$ git init [nom-du-projet]</td>
@@ -68,10 +70,96 @@
                 <td>Créer un dépot local avec le nom spécifié</td>
             </tr>
             <tr>
-                <td class="color">$ git clone[url]</td>
+                <td class="color">$ git clone [url]</td>
             </tr>
             <tr>
                 <td>Télécharge un projet et son historique de version</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section>
+        <table>
+
+            <h4>Effectuer des changements</h4>
+            <p>Consulter les modifications et effectuer un commit.</p>
+
+            <tr>
+                <td class="color">$ git status</td>
+            </tr>
+            <tr>
+                <td>Liste tous les nouveaux fichiers modifiés à commiter</td>
+            </tr>
+            <tr>
+                <td class="color">$ git diff</td>
+            </tr>
+            <tr>
+                <td>Montre les modifications de fichier pas encore indexées</td>
+            </tr>
+            <tr>
+                <td class="color">$ git add [fichier]</td>
+            </tr>
+            <tr>
+                <td>Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
+            </tr>
+            <tr>
+                <td class="color">$ git diff --staged</td>
+            </tr>
+            <tr>
+                <td>Montre les différences de fichier entre la version indexée et la dernière version</td>
+            </tr>
+            <tr>
+                <td class="color">$ git reset [fichier]</td>
+            </tr>
+            <tr>
+                <td>Enlève le fichier de l'index, conserve son contenu</td>
+            </tr>
+            <tr>
+                <td class="color">$ git commit -m [message]</td>
+            </tr>
+            <tr>
+                <td>Enregistre des instantanés de fichiers de façon permanante dans l'historique des versions</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section>
+        <table>
+
+            <h4>Grouper des changements</h4>
+            <p>Nommer une serie de commit et combiner les résultats des travaux terminés</p>
+
+            <tr>
+                <td class="color"> $ git branch</td>
+            </tr>
+            <tr>
+                <td>Liste toutes les branches locales dans le dépôt courant.</td>
+            </tr>
+            <tr>
+                <td class="color">$ git branch [nom-de-branche]</td>
+            </tr>
+            <tr>
+                <td>Crée une nouvelle branche</td>
+            </tr>
+            <tr>
+              <td class="color">$ git checkout [nom-de-branche]</td>
+            </tr>
+            <tr>
+              <td>Bascule sur la branche specifiée et met à jour le répertoire de travail.</td>
+            </tr>
+            <tr>
+              <td class="color">$ git merge [nom-de-branche]</td>
+            </tr>
+            <tr>
+              <td>Combine dans la branche courante l'historique de la branche specifiée</td>
+            </tr>
+            <tr>
+              <td class="color">$ git branch -d [nom-de-branche]</td>
+            </tr>
+            <tr>
+              <td>Supprime la branche specifiée</td>
             </tr>
 
           </table>
@@ -80,47 +168,26 @@
         <section>
           <table>
 
-            <h4>Effectuer des changements</h4>
+            <h4>Changements au niveau des noms de fichiers</h4>
+            <p>Déplacer et supprimer des fichiers sous suivi de version</p>
 
             <tr>
-              <td class="color">$ git status</td>
+              <td class="color">$ git rm [fichier]</td>
             </tr>
             <tr>
-              <td>Liste tous les nouveaux fichiers modifiés à commiter</td>
+              <td>Supprime le fichier du répertoire de travail et met à jour l'index</td>
             </tr>
             <tr>
-              <td class="color">$ git diff</td>
+              <td class="color">$ git mv [fichier] [fichier-nouveau-nom]</td>
             </tr>
             <tr>
-              <td>Montre les modifications de fichier pas encore indexées</td>
-            </tr>
-            <tr>
-              <td class="color">$ git add [fichier]</td>
-            </tr>
-            <tr>
-              <td>Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
-            </tr>
-            <tr>
-              <td class="color">$ git diff --staged</td>
-            </tr>
-            <tr>
-              <td>Montre les différences de fichier entre la version indexée et la dernière version</td>
-            </tr>
-            <tr>
-              <td class="color">$ git reset [fichier]</td>
-            </tr>
-            <tr>
-              <td>Enlève le fichier de l'index, conserve son contenu</td>
-            </tr>
-            <tr>
-              <td class="color">$ git commit -m [message]</td>
-            </tr>
-            <tr>
-              <td>Enregistre des instantanés de fichiers de façon permanante dans l'historique des versions</td>
+              <td>Renomme le fichier et prépare le changement pour un commit.</td>
             </tr>
 
           </table>
         </section>
+
+
 
 
 
